@@ -1,0 +1,115 @@
+.book-tour-section {
+    position: relative;
+    background: url('https://images.unsplash.com/photo-1497366811353-6870744d04b2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover;
+    padding: 5rem 0;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.book-tour-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.book-form-card {
+    background-color: rgba(30, 30, 30, 0.95);
+    /* Dark background */
+    padding: 40px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    color: var(--white);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.book-form-card h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: var(--white);
+    color: #333;
+    font-size: 1rem;
+}
+
+.form-row {
+    display: flex;
+    gap: 20px;
+}
+
+.form-row .form-group {
+    flex: 1;
+}
+
+.form-checkbox {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 2rem;
+    font-size: 0.85rem;
+    color: #ccc;
+}
+
+.form-checkbox input {
+    margin-top: 3px;
+}
+
+.form-checkbox a {
+    color: #4caf50;
+    /* Greenish color for links */
+    text-decoration: none;
+}
+
+.btn-submit {
+    width: 100%;
+    padding: 15px;
+    background-color: #000080;
+    /* Dark Blue */
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.btn-submit:hover {
+    background-color: var(--primary-color);
+}
+
+@media screen and (max-width: 768px) {
+    .book-tour-section {
+        justify-content: center;
+    }
+
+    .book-tour-container {
+        justify-content: center;
+    }
+
+    .book-form-card {
+        width: 100%;
+    }
+}

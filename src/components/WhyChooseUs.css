@@ -1,0 +1,63 @@
+.why-choose-section {
+    padding: 5rem 0;
+    background-color: var(--white);
+}
+
+.why-choose-section .section-title {
+    text-align: center;
+    margin-bottom: 4rem;
+    font-size: 2.5rem;
+}
+
+.highlight {
+    position: relative;
+    display: inline-block;
+}
+
+/* Optional: Add a background shape behind 'Cowork' if needed to match image exactly, 
+   but text highlight is a good approximation for now */
+
+.why-choose-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    text-align: center;
+}
+
+.why-choose-item {
+    padding: 20px;
+}
+
+.why-icon {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: var(--heading-color);
+    /* Add a subtle background blob or shape if desired */
+    position: relative;
+    display: inline-block;
+}
+
+.why-icon i {
+    position: relative;
+    z-index: 1;
+}
+
+.why-choose-item h3 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    color: var(--heading-color);
+    font-weight: 700;
+}
+
+.why-choose-item p {
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+@media screen and (max-width: 768px) {
+    .why-choose-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
