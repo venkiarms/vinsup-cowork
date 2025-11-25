@@ -21,9 +21,9 @@ const Footer = () => {
                     </div>
                     <div className="footer-contact">
                         <h3>Contact Us</h3>
-                        <p><i className="fas fa-map-marker-alt"></i> 123 Innovation Drive, Tech City</p>
-                        <p><i className="fas fa-phone"></i> +1 (555) 123-4567</p>
-                        <p><i className="fas fa-envelope"></i> hello@cowork.com</p>
+                        <p><i className="fas fa-map-marker-alt"></i> PM Tower , 1st Floor, Kalavasal</p>
+                        <p><i className="fas fa-phone"></i> +91 9876543210</p>
+                        <p><i className="fas fa-envelope"></i> vinsup@cowork.com</p>
                     </div>
                     <div className="footer-social">
                         <h3>Follow Us</h3>
